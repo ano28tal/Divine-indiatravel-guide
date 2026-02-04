@@ -1,0 +1,26 @@
+{
+  "name": "Sacred India - Divine Destinations & Cosmic Guidance",
+  "short_name": "Sacred India",
+  "description": "Explore India's sacred destinations and find your cosmic path with personalized Rashi guidance",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#9b87f5",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/favicon.ico",
+      "sizes": "48x48",
+      "type": "image/x-icon"
+    }
+  ],
+  "categories": ["lifestyle", "travel", "spirituality"],
+  "lang": "en-US",
+  "dir": "ltr"
+}

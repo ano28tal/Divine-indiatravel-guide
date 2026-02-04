@@ -1,0 +1,45 @@
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+build/
+
+# Cache
+.cache/
+.parcel-cache/
+
+# IDE
+.idea/
+.vscode/
+
+# Logs
+*.log
+npm-debug.log*
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Environment
+.env
+.env.*
+
+# Lock files
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Generated
+*.min.js
+*.min.css
+
+# Assets
+public/
+*.svg
+*.ico
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.webp
