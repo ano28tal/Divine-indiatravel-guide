@@ -21,6 +21,10 @@ export {
   unionTerritories,
   statesAD,
   statesGK,
-  statesMR,
-  statesSW,
+  statesMN,
+  statesOR,
+  statesST,
+  statesUW,
+  territoriesAD,
+  territoriesJP,
 } from "../constants";
