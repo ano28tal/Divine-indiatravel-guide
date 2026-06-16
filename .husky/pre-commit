@@ -1,0 +1,10 @@
+echo "🔍 Running pre-commit checks..."
+
+# Format and lint only the staged files (auto-fixes and re-stages them)
+npx lint-staged || exit 1
+
+# Type-check the whole project (types span multiple files)
+echo "🔎 Type-checking..."
+npm run typecheck || exit 1
+
+echo "✅ Pre-commit checks passed."

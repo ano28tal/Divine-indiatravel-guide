@@ -30,7 +30,10 @@ export type BrowserRouteValue = (typeof browserRoutes)[BrowserRouteKey];
 export const getStateRoute = (stateName: string): string =>
   `/destinations/${encodeURIComponent(stateName.toLowerCase().replace(/\s+/g, "-"))}`;
 
-export const getDistrictRoute = (stateName: string, districtName: string): string =>
+export const getDistrictRoute = (
+  stateName: string,
+  districtName: string
+): string =>
   `/destinations/${encodeURIComponent(stateName.toLowerCase().replace(/\s+/g, "-"))}/${encodeURIComponent(districtName.toLowerCase().replace(/\s+/g, "-"))}`;
 
 export const getTempleRoute = (

@@ -83,7 +83,13 @@ export const ShivaTemplesTab = ({
         <div>
           <TabInfoBox {...subTabContent["pancha-bhuta"]} />
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
-            {renderTemples(filteredPanchaBhuta, "pancha-bhuta", true, false, false)}
+            {renderTemples(
+              filteredPanchaBhuta,
+              "pancha-bhuta",
+              true,
+              false,
+              false
+            )}
           </div>
         </div>
       )}
@@ -93,7 +99,13 @@ export const ShivaTemplesTab = ({
         <div>
           <TabInfoBox {...subTabContent["pancharama"]} />
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
-            {renderTemples(filteredPancharama, "pancharama", false, false, false)}
+            {renderTemples(
+              filteredPancharama,
+              "pancharama",
+              false,
+              false,
+              false
+            )}
           </div>
         </div>
       )}
@@ -103,7 +115,13 @@ export const ShivaTemplesTab = ({
         <div>
           <TabInfoBox {...subTabContent["pancha-sabhai"]} />
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
-            {renderTemples(filteredPanchaSabhai, "pancha-sabhai", false, true, false)}
+            {renderTemples(
+              filteredPanchaSabhai,
+              "pancha-sabhai",
+              false,
+              true,
+              false
+            )}
           </div>
         </div>
       )}
@@ -129,7 +147,13 @@ export const ShivaTemplesTab = ({
         <div>
           <TabInfoBox {...subTabContent["notable"]} />
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-4">
-            {renderTemples(filteredNotableTemples, "notable-shiva", false, false, false)}
+            {renderTemples(
+              filteredNotableTemples,
+              "notable-shiva",
+              false,
+              false,
+              false
+            )}
           </div>
         </div>
       )}

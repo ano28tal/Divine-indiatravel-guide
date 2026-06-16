@@ -44,11 +44,7 @@ export const DeityTemplesGrid = ({ deity }: DeityTemplesGridProps) => {
         </h4>
         <div className="flex flex-wrap gap-2">
           {deity.names.map((name, idx) => (
-            <Badge
-              key={idx}
-              variant="secondary"
-              className="text-sm py-1 px-3"
-            >
+            <Badge key={idx} variant="secondary" className="text-sm py-1 px-3">
               {name.name}
               {name.meaning && (
                 <span className="text-muted-foreground ml-1">
@@ -96,7 +92,9 @@ export const DeityTemplesGrid = ({ deity }: DeityTemplesGridProps) => {
               <CardContent className="space-y-4">
                 <div className="flex items-center gap-2 text-sm text-muted-foreground">
                   <MapPin className="w-4 h-4 text-primary" />
-                  <span>{temple.location}, {temple.state}</span>
+                  <span>
+                    {temple.location}, {temple.state}
+                  </span>
                 </div>
                 <div className="p-4 rounded-lg bg-muted/50 border border-border">
                   <CardDescription className="text-sm leading-relaxed line-clamp-3">

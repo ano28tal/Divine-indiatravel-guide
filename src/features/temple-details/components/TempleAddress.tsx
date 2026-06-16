@@ -89,11 +89,7 @@ const TempleAddress = ({ temple }: TempleAddressProps) => {
               View on Maps
             </a>
           </Button>
-          <Button
-            size="sm"
-            asChild
-            className="flex items-center gap-2"
-          >
+          <Button size="sm" asChild className="flex items-center gap-2">
             <a href={directionsUrl} target="_blank" rel="noopener noreferrer">
               <Navigation className="w-4 h-4" />
               Get Directions

@@ -1,6 +1,10 @@
 import { useMemo } from "react";
 import { useParams, useNavigate } from "react-router-dom";
-import { State, District, indianStates } from "@/features/destinations/types/destinations";
+import {
+  State,
+  District,
+  indianStates,
+} from "@/features/destinations/types/destinations";
 import {
   browserRoutes,
   getStateRoute,

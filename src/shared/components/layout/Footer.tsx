@@ -1,5 +1,14 @@
 import { Link } from "react-router-dom";
-import { Heart, MapPin, Sparkles, Mail, Phone, MapPinned, Flame, Flower2 } from "lucide-react";
+import {
+  Heart,
+  MapPin,
+  Sparkles,
+  Mail,
+  Phone,
+  MapPinned,
+  Flame,
+  Flower2,
+} from "lucide-react";
 
 const Footer = () => {
   return (

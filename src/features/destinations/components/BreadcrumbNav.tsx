@@ -20,7 +20,10 @@ const BreadcrumbNav = ({
   }
 
   return (
-    <nav className="mb-8 flex items-center gap-2 animate-fade-in" aria-label="Breadcrumb">
+    <nav
+      className="mb-8 flex items-center gap-2 animate-fade-in"
+      aria-label="Breadcrumb"
+    >
       <Link
         to={browserRoutes.destinations}
         className="text-sm text-muted-foreground hover:text-foreground transition-colors"

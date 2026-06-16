@@ -39,7 +39,9 @@ export const ShaktiPeethaCard = ({ place, index }: ShaktiPeethaCardProps) => {
                 {place.location}, {place.state}
               </span>
             </div>
-            <p className="text-gray-600 mt-2 text-sm line-clamp-2">{place.description}</p>
+            <p className="text-gray-600 mt-2 text-sm line-clamp-2">
+              {place.description}
+            </p>
             <div className="mt-2 text-pink-600 text-sm font-medium opacity-0 group-hover:opacity-100 transition-opacity flex items-center gap-1">
               <span>View Details</span>
               <ChevronRight className="w-4 h-4" />

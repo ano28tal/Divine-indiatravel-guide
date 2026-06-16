@@ -8,7 +8,10 @@ import {
 } from "@/shared/components/ui/card";
 import { Badge } from "@/shared/components/ui/badge";
 import { Clock, Heart, ChevronRight } from "lucide-react";
-import type { District, State } from "@/features/destinations/types/destinations";
+import type {
+  District,
+  State,
+} from "@/features/destinations/types/destinations";
 import { getTempleRoute } from "@/constants/browserRoutes";
 
 interface PlacesGridProps {

@@ -42,7 +42,8 @@ const TempleMap = ({ temple }: TempleMapProps) => {
           />
         </div>
         <p className="text-xs text-muted-foreground mt-2 text-center">
-          Click on the map to interact. Use the "Get Directions" button above for navigation.
+          Click on the map to interact. Use the "Get Directions" button above
+          for navigation.
         </p>
       </CardContent>
     </Card>

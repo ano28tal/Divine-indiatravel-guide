@@ -66,14 +66,21 @@ const findDivinePlace = (
   deityOrCategory: string,
   nameSlug: string
 ): {
-  place: JyotirlingaPlace | ShaktiPeethaPlace | ShivaTemplePlace | SacredPlace | null;
+  place:
+    | JyotirlingaPlace
+    | ShaktiPeethaPlace
+    | ShivaTemplePlace
+    | SacredPlace
+    | null;
   category: string;
 } => {
   const templeName = slugToName(nameSlug).toLowerCase();
   const deityOrCategoryName = slugToName(deityOrCategory).toLowerCase();
 
   // First, check if it's a deity name
-  const deity = deities.find((d) => d.name.toLowerCase() === deityOrCategoryName);
+  const deity = deities.find(
+    (d) => d.name.toLowerCase() === deityOrCategoryName
+  );
   if (deity) {
     const foundPlace = deity.sacredPlaces.find(
       (p) => p.name.toLowerCase() === templeName
@@ -90,25 +97,30 @@ const findDivinePlace = (
   switch (deityOrCategory) {
     case "jyotirlinga":
       return {
-        place: jyotirlingas.find((p) => p.name.toLowerCase() === templeName) || null,
+        place:
+          jyotirlingas.find((p) => p.name.toLowerCase() === templeName) || null,
         category: "jyotirlinga",
       };
     case "shaktipeetha":
       return {
-        place: shaktiPeethas.find((p) => p.name.toLowerCase() === templeName) || null,
+        place:
+          shaktiPeethas.find((p) => p.name.toLowerCase() === templeName) ||
+          null,
         category: "shaktipeetha",
       };
     case "pancha-bhuta":
       return {
         place:
-          panchaBhutaSthalams.find((p) => p.name.toLowerCase() === templeName) ||
-          null,
+          panchaBhutaSthalams.find(
+            (p) => p.name.toLowerCase() === templeName
+          ) || null,
         category: "pancha-bhuta",
       };
     case "pancharama":
       return {
         place:
-          pancharamaKshetras.find((p) => p.name.toLowerCase() === templeName) || null,
+          pancharamaKshetras.find((p) => p.name.toLowerCase() === templeName) ||
+          null,
         category: "pancharama",
       };
     case "pancha-sabhai":
@@ -120,15 +132,17 @@ const findDivinePlace = (
     case "ashta-veeratta":
       return {
         place:
-          ashtaVeerattaTemples.find((p) => p.name.toLowerCase() === templeName) ||
-          null,
+          ashtaVeerattaTemples.find(
+            (p) => p.name.toLowerCase() === templeName
+          ) || null,
         category: "ashta-veeratta",
       };
     case "notable-shiva":
       return {
         place:
-          notableShivaTemples.find((p) => p.name.toLowerCase() === templeName) ||
-          null,
+          notableShivaTemples.find(
+            (p) => p.name.toLowerCase() === templeName
+          ) || null,
         category: "notable-shiva",
       };
     default:
@@ -306,7 +320,12 @@ export const useTempleDetails = () => {
     }
 
     // Destinations route
-    if (!isDivinePlacesRoute && selectedPlace && selectedDistrict && selectedState) {
+    if (
+      !isDivinePlacesRoute &&
+      selectedPlace &&
+      selectedDistrict &&
+      selectedState
+    ) {
       return generateTempleDetails(
         selectedPlace,
         selectedDistrict.name,
@@ -329,6 +348,7 @@ export const useTempleDetails = () => {
     selectedDistrict,
     isDivinePlacesRoute,
     isLoading: false,
-    error: !templeDetails && (templeName || deityName) ? "Temple not found" : null,
+    error:
+      !templeDetails && (templeName || deityName) ? "Temple not found" : null,
   };
 };

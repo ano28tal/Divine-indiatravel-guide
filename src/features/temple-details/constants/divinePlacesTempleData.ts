@@ -33,7 +33,7 @@ export const divinePlacesTempleData: Record<string, TempleDetails> = {
       landmark: "Near Arabian Sea Shore",
     },
     coordinates: {
-      latitude: 20.8880,
+      latitude: 20.888,
       longitude: 70.4012,
     },
     timings: "6:00 AM - 9:30 PM",
@@ -492,11 +492,7 @@ export const divinePlacesTempleData: Record<string, TempleDetails> = {
     entryFee: "Free",
     bestTimeToVisit: "October to March",
     dressCode: "Traditional attire",
-    nearbyAttractions: [
-      "Srirangam Temple",
-      "Rock Fort Temple",
-      "Kallanai Dam",
-    ],
+    nearbyAttractions: ["Srirangam Temple", "Rock Fort Temple", "Kallanai Dam"],
     yogaCenters: defaultYogaCenters,
     foodCenters: defaultFoodCenters,
     spiritualTeachers: defaultSpiritualTeachers,

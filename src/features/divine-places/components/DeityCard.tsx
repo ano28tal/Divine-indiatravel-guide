@@ -1,5 +1,11 @@
 import { useNavigate } from "react-router-dom";
-import { ChevronDown, ChevronUp, MapPin, Sparkles, ChevronRight } from "lucide-react";
+import {
+  ChevronDown,
+  ChevronUp,
+  MapPin,
+  Sparkles,
+  ChevronRight,
+} from "lucide-react";
 import type { Deity } from "../types";
 import { divinePlacesPageContent } from "../constants";
 import { getDivinePlaceTempleRoute } from "@/constants/browserRoutes";

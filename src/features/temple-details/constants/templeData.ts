@@ -104,7 +104,8 @@ export const templeDetailsData: Record<string, TempleDetails> = {
       {
         url: veerabhadra1,
         alt: "Veerabhadra Swamy Temple at Lepakshi",
-        caption: "The Vijayanagara-style stone architecture of Veerabhadra Swamy Temple, Lepakshi",
+        caption:
+          "The Vijayanagara-style stone architecture of Veerabhadra Swamy Temple, Lepakshi",
       },
       {
         url: veerabhadra2,
@@ -126,7 +127,8 @@ export const templeDetailsData: Record<string, TempleDetails> = {
     },
     timings: "6:00 AM - 6:00 PM (Morning: 6 AM – 12 PM, Evening: 4 PM – 6 PM)",
     entryFee: "Free for all visitors",
-    bestTimeToVisit: "Early morning for peaceful darshan; winter months (October to February) for comfortable weather",
+    bestTimeToVisit:
+      "Early morning for peaceful darshan; winter months (October to February) for comfortable weather",
     dressCode:
       "Respectful and traditional attire. Men: shirts/T-shirts with full pants or dhoti. Women: saree, salwar kameez, or decent traditional attire. Avoid shorts, sleeveless tops, and revealing or inappropriate clothing.",
     nearbyAttractions: [
@@ -152,12 +154,14 @@ export const templeDetailsData: Record<string, TempleDetails> = {
       {
         url: pennahobilam1,
         alt: "Pennahobilam Lakshmi Narasimha Swamy Temple gopuram",
-        caption: "The hilltop gopuram and steps of Pennahobilam Lakshmi Narasimha Swamy Temple",
+        caption:
+          "The hilltop gopuram and steps of Pennahobilam Lakshmi Narasimha Swamy Temple",
       },
       {
         url: pennahobilam2,
         alt: "Lakshmi Narasimha Swamy idol",
-        caption: "The idol of Lakshmi Narasimha Swamy decorated with flowers and ornaments",
+        caption:
+          "The idol of Lakshmi Narasimha Swamy decorated with flowers and ornaments",
       },
     ],
     address: {
@@ -172,16 +176,14 @@ export const templeDetailsData: Record<string, TempleDetails> = {
       latitude: 14.93,
       longitude: 77.25,
     },
-    timings: "6:00 AM - 8:00 PM (Morning: 6 AM – 12:30 PM, Evening: 4 PM – 8 PM)",
+    timings:
+      "6:00 AM - 8:00 PM (Morning: 6 AM – 12:30 PM, Evening: 4 PM – 8 PM)",
     entryFee: "Free entry for all devotees (special poojas on auspicious days)",
-    bestTimeToVisit: "Early morning for peaceful darshan; evenings for scenic views; Narasimha Jayanti is especially vibrant",
+    bestTimeToVisit:
+      "Early morning for peaceful darshan; evenings for scenic views; Narasimha Jayanti is especially vibrant",
     dressCode:
       "Traditional attire recommended. Men: dhoti, kurta, or full pants with shirt. Women: saree, salwar kameez, or traditional wear. Avoid shorts, sleeveless tops, and revealing clothing.",
-    nearbyAttractions: [
-      "Pennar River",
-      "Uravakonda",
-      "Anantapur",
-    ],
+    nearbyAttractions: ["Pennar River", "Uravakonda", "Anantapur"],
     yogaCenters: defaultYogaCenters,
     foodCenters: defaultFoodCenters,
     spiritualTeachers: defaultSpiritualTeachers,
@@ -199,7 +201,8 @@ export const templeDetailsData: Record<string, TempleDetails> = {
       {
         url: buggaRamalingeswara1,
         alt: "Bugga Ramalingeswara Swamy Temple aerial view",
-        caption: "Aerial view of the Vijayanagara-style Bugga Ramalingeswara Swamy Temple, Tadipatri",
+        caption:
+          "Aerial view of the Vijayanagara-style Bugga Ramalingeswara Swamy Temple, Tadipatri",
       },
       {
         url: buggaRamalingeswara2,
@@ -221,7 +224,8 @@ export const templeDetailsData: Record<string, TempleDetails> = {
     },
     timings: "6:00 AM - 8:00 PM (Morning: 6 AM – 12 PM, Evening: 4 PM – 8 PM)",
     entryFee: "Free entry for all devotees (special poojas during festivals)",
-    bestTimeToVisit: "Early morning (peaceful and less crowded); evening aarti time; winter months (October to February) for comfortable weather",
+    bestTimeToVisit:
+      "Early morning (peaceful and less crowded); evening aarti time; winter months (October to February) for comfortable weather",
     dressCode:
       "Traditional and modest attire. Men: dhoti, kurta, or formal wear. Women: saree, salwar kameez, or traditional dress. Avoid shorts, sleeveless tops, and revealing clothing.",
     nearbyAttractions: [
@@ -246,12 +250,14 @@ export const templeDetailsData: Record<string, TempleDetails> = {
       {
         url: kadiriNarasimha1,
         alt: "Kadiri Lakshmi Narasimha Swamy Temple gopurams",
-        caption: "The towering gopurams of Kadiri Lakshmi Narasimha Swamy Temple",
+        caption:
+          "The towering gopurams of Kadiri Lakshmi Narasimha Swamy Temple",
       },
       {
         url: kadiriNarasimha2,
         alt: "Lord Lakshmi Narasimha Swamy idol",
-        caption: "The self-manifested idol of Lord Lakshmi Narasimha Swamy adorned with garlands",
+        caption:
+          "The self-manifested idol of Lord Lakshmi Narasimha Swamy adorned with garlands",
       },
     ],
     address: {
@@ -266,16 +272,15 @@ export const templeDetailsData: Record<string, TempleDetails> = {
       latitude: 14.1115,
       longitude: 78.1595,
     },
-    timings: "5:30 AM - 8:30 PM (Morning: 5:30 AM – 1 PM, Evening: 4:30 PM – 8:30 PM)",
-    entryFee: "No general entry fee; special seva/darshan tickets may range between ₹50 – ₹300",
-    bestTimeToVisit: "Early morning for peaceful darshan; evening aarti time for spiritual ambiance; Brahmotsavam and Narasimha Jayanti festivals",
+    timings:
+      "5:30 AM - 8:30 PM (Morning: 5:30 AM – 1 PM, Evening: 4:30 PM – 8:30 PM)",
+    entryFee:
+      "No general entry fee; special seva/darshan tickets may range between ₹50 – ₹300",
+    bestTimeToVisit:
+      "Early morning for peaceful darshan; evening aarti time for spiritual ambiance; Brahmotsavam and Narasimha Jayanti festivals",
     dressCode:
       "Traditional and modest attire. Men: dhoti, kurta, or formal wear. Women: saree or salwar kameez. Avoid shorts, sleeveless tops, or revealing clothes.",
-    nearbyAttractions: [
-      "Kadiri town",
-      "Kadiri Railway Station",
-      "Anantapur",
-    ],
+    nearbyAttractions: ["Kadiri town", "Kadiri Railway Station", "Anantapur"],
     yogaCenters: defaultYogaCenters,
     foodCenters: defaultFoodCenters,
     spiritualTeachers: defaultSpiritualTeachers,
@@ -293,12 +298,14 @@ export const templeDetailsData: Record<string, TempleDetails> = {
       {
         url: iskconAnantapur1,
         alt: "ISKCON Temple illuminated at night",
-        caption: "The ISKCON temple beautifully illuminated with festive lighting",
+        caption:
+          "The ISKCON temple beautifully illuminated with festive lighting",
       },
       {
         url: iskconAnantapur2,
         alt: "ISKCON Temple complex at night",
-        caption: "The ISKCON temple complex with decorative horse statues lit up at night",
+        caption:
+          "The ISKCON temple complex with decorative horse statues lit up at night",
       },
     ],
     address: {
@@ -313,15 +320,15 @@ export const templeDetailsData: Record<string, TempleDetails> = {
       latitude: 14.6819,
       longitude: 77.6006,
     },
-    timings: "4:30 AM - 8:30 PM (Mangala Aarti: 4:30 AM, Morning Darshan: 7 AM – 12:30 PM, Evening Darshan: 4:30 PM – 8:30 PM)",
-    entryFee: "Free entry for all visitors (donations accepted but not mandatory)",
-    bestTimeToVisit: "Early morning (Mangala Aarti) for a spiritual experience; evening aarti for a peaceful atmosphere; Janmashtami is highly vibrant",
+    timings:
+      "4:30 AM - 8:30 PM (Mangala Aarti: 4:30 AM, Morning Darshan: 7 AM – 12:30 PM, Evening Darshan: 4:30 PM – 8:30 PM)",
+    entryFee:
+      "Free entry for all visitors (donations accepted but not mandatory)",
+    bestTimeToVisit:
+      "Early morning (Mangala Aarti) for a spiritual experience; evening aarti for a peaceful atmosphere; Janmashtami is highly vibrant",
     dressCode:
       "Modest and traditional attire. Men: kurta-pajama or full pants with shirt. Women: saree, salwar kameez, or long dresses. Avoid shorts, sleeveless tops, short skirts, and tight or revealing clothing.",
-    nearbyAttractions: [
-      "Anantapur city",
-      "NH44 Highway",
-    ],
+    nearbyAttractions: ["Anantapur city", "NH44 Highway"],
     yogaCenters: defaultYogaCenters,
     foodCenters: defaultFoodCenters,
     spiritualTeachers: defaultSpiritualTeachers,
@@ -339,7 +346,8 @@ export const templeDetailsData: Record<string, TempleDetails> = {
       {
         url: hemavathiComplex,
         alt: "Hemavathi Temple Complex",
-        caption: "The ancient stone temple complex of Hemavathi with its Nolamba-era architecture",
+        caption:
+          "The ancient stone temple complex of Hemavathi with its Nolamba-era architecture",
       },
     ],
     address: {
@@ -356,7 +364,8 @@ export const templeDetailsData: Record<string, TempleDetails> = {
     },
     timings: "6:00 AM - 7:00 PM (Morning: 6 AM – 12 PM, Evening: 4 PM – 7 PM)",
     entryFee: "Free entry (ASI-protected site)",
-    bestTimeToVisit: "Early morning for peaceful darshan; winter months (October to February) for comfortable weather",
+    bestTimeToVisit:
+      "Early morning for peaceful darshan; winter months (October to February) for comfortable weather",
     dressCode:
       "No strict enforced dress code, but traditional and modest attire is encouraged. Men: kurta-pajama, dhoti, or full pants. Women: saree, salwar suit, or traditional wear. Avoid shorts, sleeveless tops, and revealing outfits.",
     nearbyAttractions: [
@@ -381,7 +390,8 @@ export const templeDetailsData: Record<string, TempleDetails> = {
       {
         url: guguduKullaiSwamy,
         alt: "Gugudu Kullai Swamy Devasthanam deity",
-        caption: "The decorated shrine of Kullai Swamy adorned with garlands and offerings",
+        caption:
+          "The decorated shrine of Kullai Swamy adorned with garlands and offerings",
       },
     ],
     address: {
@@ -397,15 +407,13 @@ export const templeDetailsData: Record<string, TempleDetails> = {
       longitude: 77.63,
     },
     timings: "6:00 AM - 8:00 PM (Morning: 6 AM – 12 PM, Evening: 4 PM – 8 PM)",
-    entryFee: "Free entry (special pooja conducted by local priests on festival days)",
-    bestTimeToVisit: "Early morning for peaceful darshan; festival days (Amavasya, full moon, village festivals) for a cultural experience",
+    entryFee:
+      "Free entry (special pooja conducted by local priests on festival days)",
+    bestTimeToVisit:
+      "Early morning for peaceful darshan; festival days (Amavasya, full moon, village festivals) for a cultural experience",
     dressCode:
       "Traditional and respectful attire. Men: shirt and trousers or dhoti. Women: saree or salwar suit. Avoid shorts, sleeveless outfits, and inappropriate or revealing clothes.",
-    nearbyAttractions: [
-      "Guntakal",
-      "Guntakal Junction",
-      "Anantapur",
-    ],
+    nearbyAttractions: ["Guntakal", "Guntakal Junction", "Anantapur"],
     yogaCenters: defaultYogaCenters,
     foodCenters: defaultFoodCenters,
     spiritualTeachers: defaultSpiritualTeachers,
@@ -423,12 +431,14 @@ export const templeDetailsData: Record<string, TempleDetails> = {
       {
         url: nookambika1,
         alt: "Sri Nookambika Ammavari Temple exterior",
-        caption: "The golden temple structure of Sri Nookambika Ammavari Temple",
+        caption:
+          "The golden temple structure of Sri Nookambika Ammavari Temple",
       },
       {
         url: nookambika2,
         alt: "Goddess Nookambika Ammavaru idol",
-        caption: "The idol of Goddess Nookambika Ammavaru with sacred offerings",
+        caption:
+          "The idol of Goddess Nookambika Ammavaru with sacred offerings",
       },
     ],
     address: {
@@ -443,9 +453,12 @@ export const templeDetailsData: Record<string, TempleDetails> = {
       latitude: 17.6916,
       longitude: 83.0062,
     },
-    timings: "5:00 AM - 9:00 PM (Morning Darshan: 5 AM – 12:30 PM, Evening Darshan: 4 PM – 9 PM)",
-    entryFee: "General Darshan: Free (Special sevas/poojas: charges vary by ritual)",
-    bestTimeToVisit: "Early morning for peaceful darshan; during the Nookambika Jatara festival for a vibrant experience",
+    timings:
+      "5:00 AM - 9:00 PM (Morning Darshan: 5 AM – 12:30 PM, Evening Darshan: 4 PM – 9 PM)",
+    entryFee:
+      "General Darshan: Free (Special sevas/poojas: charges vary by ritual)",
+    bestTimeToVisit:
+      "Early morning for peaceful darshan; during the Nookambika Jatara festival for a vibrant experience",
     dressCode:
       "Modest and respectful attire. Men: dhoti or simple formal clothing. Women: saree, salwar kameez, or traditional attire. Avoid shorts, sleeveless tops, and revealing or casual western outfits.",
     nearbyAttractions: [
@@ -470,7 +483,8 @@ export const templeDetailsData: Record<string, TempleDetails> = {
       {
         url: panchadarlaTemple,
         alt: "Panchadarla Temple entrance gopuram",
-        caption: "The entrance of Panchadarla (Sri Dharmalingeswara Swamy) Temple surrounded by greenery",
+        caption:
+          "The entrance of Panchadarla (Sri Dharmalingeswara Swamy) Temple surrounded by greenery",
       },
     ],
     address: {
@@ -487,7 +501,8 @@ export const templeDetailsData: Record<string, TempleDetails> = {
     },
     timings: "6:00 AM - 7:00 PM (Morning: 6 AM – 12 PM, Evening: 4 PM – 7 PM)",
     entryFee: "General Entry: Free (Special poojas may have nominal charges)",
-    bestTimeToVisit: "Early morning for peaceful darshan; during Mahashivratri for spiritual celebrations",
+    bestTimeToVisit:
+      "Early morning for peaceful darshan; during Mahashivratri for spiritual celebrations",
     dressCode:
       "Modest and traditional attire. Men: traditional wear or full pants with shirt. Women: saree, salwar kameez, or modest dress. Avoid shorts, sleeveless outfits, and revealing clothes.",
     nearbyAttractions: [
@@ -512,7 +527,8 @@ export const templeDetailsData: Record<string, TempleDetails> = {
       {
         url: gowriParameswarTemple,
         alt: "Gowri Parameswar Temple interior with carved pillars",
-        caption: "The ornately carved pillared interior of Gowri Parameswar Temple",
+        caption:
+          "The ornately carved pillared interior of Gowri Parameswar Temple",
       },
     ],
     address: {
@@ -527,15 +543,14 @@ export const templeDetailsData: Record<string, TempleDetails> = {
       latitude: 17.6868,
       longitude: 83.003,
     },
-    timings: "5:30 AM - 8:30 PM (Morning: 5:30 AM – 12 PM, Evening: 4:30 PM – 8:30 PM)",
+    timings:
+      "5:30 AM - 8:30 PM (Morning: 5:30 AM – 12 PM, Evening: 4:30 PM – 8:30 PM)",
     entryFee: "General Entry: Free (Special poojas/archanas: nominal charges)",
-    bestTimeToVisit: "Early morning for peaceful darshan; Mondays (auspicious for Lord Shiva) and festival days",
+    bestTimeToVisit:
+      "Early morning for peaceful darshan; Mondays (auspicious for Lord Shiva) and festival days",
     dressCode:
       "Modest and traditional attire. Men: dhoti, kurta, or formal wear. Women: saree, salwar kameez, or traditional dress. Avoid shorts, sleeveless tops, and tight or revealing clothes.",
-    nearbyAttractions: [
-      "Anakapalle",
-      "Visakhapatnam",
-    ],
+    nearbyAttractions: ["Anakapalle", "Visakhapatnam"],
     yogaCenters: defaultYogaCenters,
     foodCenters: defaultFoodCenters,
     spiritualTeachers: defaultSpiritualTeachers,
@@ -553,7 +568,8 @@ export const templeDetailsData: Record<string, TempleDetails> = {
       {
         url: anakapalliVenkateswara1,
         alt: "Sri Venkateswara Swamy Temple entrance",
-        caption: "Devotees at the entrance of Sri Venkateswara Swamy Temple, Anakapalle",
+        caption:
+          "Devotees at the entrance of Sri Venkateswara Swamy Temple, Anakapalle",
       },
       {
         url: anakapalliVenkateswara2,
@@ -573,9 +589,12 @@ export const templeDetailsData: Record<string, TempleDetails> = {
       latitude: 17.6915,
       longitude: 83.003,
     },
-    timings: "5:30 AM - 8:30 PM (Morning Darshan: 6 AM – 12 PM, Evening Darshan: 4 PM – 8:30 PM)",
-    entryFee: "General Darshan: Free (Special sevas/poojas: charges vary by ritual)",
-    bestTimeToVisit: "Early morning for peaceful darshan; weekdays to avoid crowd; festival days for vibrancy",
+    timings:
+      "5:30 AM - 8:30 PM (Morning Darshan: 6 AM – 12 PM, Evening Darshan: 4 PM – 8:30 PM)",
+    entryFee:
+      "General Darshan: Free (Special sevas/poojas: charges vary by ritual)",
+    bestTimeToVisit:
+      "Early morning for peaceful darshan; weekdays to avoid crowd; festival days for vibrancy",
     dressCode:
       "Traditional and modest attire. Men: dhoti, kurta, or formal wear. Women: saree, salwar kameez, or traditional attire. Avoid shorts, sleeveless tops, and tight or revealing clothes.",
     nearbyAttractions: [
@@ -600,7 +619,8 @@ export const templeDetailsData: Record<string, TempleDetails> = {
       {
         url: maridimamba1,
         alt: "Goddess Maridimamba idol",
-        caption: "The idol of Goddess Maridimamba adorned with flowers and ornaments",
+        caption:
+          "The idol of Goddess Maridimamba adorned with flowers and ornaments",
       },
       {
         url: maridimamba2,
@@ -620,9 +640,11 @@ export const templeDetailsData: Record<string, TempleDetails> = {
       latitude: 17.6868,
       longitude: 83.0088,
     },
-    timings: "5:00 AM - 9:00 PM (Morning Darshan: 5 AM – 12 PM, Evening Darshan: 4 PM – 9 PM)",
+    timings:
+      "5:00 AM - 9:00 PM (Morning Darshan: 5 AM – 12 PM, Evening Darshan: 4 PM – 9 PM)",
     entryFee: "General Darshan: Free (Special poojas/offerings: charges vary)",
-    bestTimeToVisit: "Early morning or evening for peaceful darshan; during Maridimamba Jatara for a cultural experience (expect heavy crowds)",
+    bestTimeToVisit:
+      "Early morning or evening for peaceful darshan; during Maridimamba Jatara for a cultural experience (expect heavy crowds)",
     dressCode:
       "Modest and respectful attire. Recommended: traditional Indian wear — saree, salwar kameez, kurta, dhoti. Avoid shorts and sleeveless or revealing clothes.",
     nearbyAttractions: [
@@ -652,7 +674,8 @@ export const templeDetailsData: Record<string, TempleDetails> = {
       {
         url: kasiVisweswara2,
         alt: "Shiva Lingam at Kasi Visweswara Temple",
-        caption: "The Shiva Lingam (Visweswara) decorated with flowers and offerings",
+        caption:
+          "The Shiva Lingam (Visweswara) decorated with flowers and offerings",
       },
     ],
     address: {
@@ -667,9 +690,12 @@ export const templeDetailsData: Record<string, TempleDetails> = {
       latitude: 17.6868,
       longitude: 83.0087,
     },
-    timings: "5:30 AM - 8:30 PM (Morning: 5:30 AM – 12 PM, Evening: 4:30 PM – 8:30 PM)",
-    entryFee: "General Entry: Free (Special poojas/Abhishekam: nominal charges)",
-    bestTimeToVisit: "Early morning for peaceful darshan; Mondays and Mahashivratri for spiritual significance",
+    timings:
+      "5:30 AM - 8:30 PM (Morning: 5:30 AM – 12 PM, Evening: 4:30 PM – 8:30 PM)",
+    entryFee:
+      "General Entry: Free (Special poojas/Abhishekam: nominal charges)",
+    bestTimeToVisit:
+      "Early morning for peaceful darshan; Mondays and Mahashivratri for spiritual significance",
     dressCode:
       "Modest attire expected. Men: traditional wear or modest formal clothing. Women: saree, salwar kameez, or traditional attire. Avoid shorts, sleeveless tops, and inappropriate casual wear.",
     nearbyAttractions: [
@@ -714,9 +740,12 @@ export const templeDetailsData: Record<string, TempleDetails> = {
       latitude: 17.6916,
       longitude: 83.003,
     },
-    timings: "6:00 AM - 8:30 PM (Morning: 6 AM – 12 PM, Evening: 4 PM – 8:30 PM)",
-    entryFee: "General Entry: Free (Special poojas/sevas: paid, varies by ritual)",
-    bestTimeToVisit: "Early morning for peaceful darshan; during festivals like Navratri and Vysya community celebrations",
+    timings:
+      "6:00 AM - 8:30 PM (Morning: 6 AM – 12 PM, Evening: 4 PM – 8:30 PM)",
+    entryFee:
+      "General Entry: Free (Special poojas/sevas: paid, varies by ritual)",
+    bestTimeToVisit:
+      "Early morning for peaceful darshan; during festivals like Navratri and Vysya community celebrations",
     dressCode:
       "Modest and traditional clothing. Men: shirt with trousers, or dhoti. Women: saree, salwar kameez, or traditional attire. Avoid shorts, sleeveless tops, and revealing or casual western wear.",
     nearbyAttractions: [
@@ -741,7 +770,8 @@ export const templeDetailsData: Record<string, TempleDetails> = {
       {
         url: bojjannakonda1,
         alt: "Bojjannakonda Buddhist site aerial view",
-        caption: "Aerial view of the Bojjannakonda Buddhist complex and its rock-cut structures",
+        caption:
+          "Aerial view of the Bojjannakonda Buddhist complex and its rock-cut structures",
       },
       {
         url: bojjannakonda2,
@@ -762,8 +792,10 @@ export const templeDetailsData: Record<string, TempleDetails> = {
       longitude: 83.003,
     },
     timings: "9:00 AM - 5:00 PM (visiting timings)",
-    entryFee: "Indian Citizens: ₹20 (approx.); Foreign Tourists: ₹250 (approx.); Children: free/minimal (managed by ASI; fees may change)",
-    bestTimeToVisit: "Morning or late afternoon for pleasant weather; winter season (October–February) is ideal",
+    entryFee:
+      "Indian Citizens: ₹20 (approx.); Foreign Tourists: ₹250 (approx.); Children: free/minimal (managed by ASI; fees may change)",
+    bestTimeToVisit:
+      "Morning or late afternoon for pleasant weather; winter season (October–February) is ideal",
     dressCode:
       "No strict dress code, as it is an archaeological site. Recommended: comfortable, modest clothing and walking shoes (due to the hill climb). Avoid very short or revealing clothes for cultural respect.",
     nearbyAttractions: [
@@ -789,12 +821,14 @@ export const templeDetailsData: Record<string, TempleDetails> = {
       {
         url: borraCavesTemple1,
         alt: "Borra Caves interior with colorful lighting",
-        caption: "The magnificent limestone cavern of Borra Caves illuminated with colorful lighting",
+        caption:
+          "The magnificent limestone cavern of Borra Caves illuminated with colorful lighting",
       },
       {
         url: borraCavesTemple2,
         alt: "Natural Shiva Lingam inside Borra Caves",
-        caption: "The naturally formed (Swayambhu) Shiva Lingam worshipped inside the cave",
+        caption:
+          "The naturally formed (Swayambhu) Shiva Lingam worshipped inside the cave",
       },
     ],
     address: {
@@ -810,8 +844,10 @@ export const templeDetailsData: Record<string, TempleDetails> = {
       longitude: 83.0416,
     },
     timings: "10:00 AM - 5:00 PM (cave visiting hours)",
-    entryFee: "Cave Entry Fee: ₹60–₹100 (approx.). Camera/Photography: Extra charges may apply",
-    bestTimeToVisit: "October to March (pleasant weather); morning hours (10 AM – 1 PM) for less crowd",
+    entryFee:
+      "Cave Entry Fee: ₹60–₹100 (approx.). Camera/Photography: Extra charges may apply",
+    bestTimeToVisit:
+      "October to March (pleasant weather); morning hours (10 AM – 1 PM) for less crowd",
     dressCode:
       "No strict dress code. Recommended: comfortable, modest clothing and shoes suitable for walking on uneven cave surfaces. Avoid slippery footwear and very short clothing.",
     nearbyAttractions: [
@@ -837,7 +873,8 @@ export const templeDetailsData: Record<string, TempleDetails> = {
       {
         url: venkatadriSwamyTemple,
         alt: "Idol of Lord Venkatadri Swamy decorated with ornaments",
-        caption: "The idol of Lord Venkatadri Swamy (Vishnu form) adorned with flowers and traditional ornaments",
+        caption:
+          "The idol of Lord Venkatadri Swamy (Vishnu form) adorned with flowers and traditional ornaments",
       },
     ],
     address: {
@@ -852,16 +889,14 @@ export const templeDetailsData: Record<string, TempleDetails> = {
       latitude: 17.9,
       longitude: 81.9,
     },
-    timings: "6:00 AM - 8:00 PM (Morning Darshan: 6 AM – 12 PM, Evening Darshan: 4 PM – 8 PM)",
+    timings:
+      "6:00 AM - 8:00 PM (Morning Darshan: 6 AM – 12 PM, Evening Darshan: 4 PM – 8 PM)",
     entryFee: "General Entry: Free (Special sevas may have nominal charges)",
-    bestTimeToVisit: "Winter and post-monsoon seasons; early morning for peaceful darshan",
+    bestTimeToVisit:
+      "Winter and post-monsoon seasons; early morning for peaceful darshan",
     dressCode:
       "Simple and traditional attire. Men: Dhoti, shirt, or traditional wear. Women: Saree or salwar kameez. Avoid shorts, revealing clothes, and casual western outfits inside the sanctum.",
-    nearbyAttractions: [
-      "Paderu",
-      "Rampachodavaram",
-      "Eastern Ghats forests",
-    ],
+    nearbyAttractions: ["Paderu", "Rampachodavaram", "Eastern Ghats forests"],
     yogaCenters: defaultYogaCenters,
     foodCenters: defaultFoodCenters,
     spiritualTeachers: defaultSpiritualTeachers,
@@ -879,12 +914,14 @@ export const templeDetailsData: Record<string, TempleDetails> = {
       {
         url: paderuShrine1,
         alt: "Local Paderu shrine temple gopuram exterior",
-        caption: "The colorful gopuram of a local Paderu shrine temple amidst the Eastern Ghats",
+        caption:
+          "The colorful gopuram of a local Paderu shrine temple amidst the Eastern Ghats",
       },
       {
         url: paderuShrine2,
         alt: "Goddess idol inside a Paderu shrine",
-        caption: "The presiding goddess idol decorated with flowers inside the shrine",
+        caption:
+          "The presiding goddess idol decorated with flowers inside the shrine",
       },
     ],
     address: {
@@ -899,9 +936,11 @@ export const templeDetailsData: Record<string, TempleDetails> = {
       latitude: 17.933,
       longitude: 82.616,
     },
-    timings: "6:00 AM - 7:00 PM (timings may vary depending on the specific shrine)",
+    timings:
+      "6:00 AM - 7:00 PM (timings may vary depending on the specific shrine)",
     entryFee: "Free entry (donations are voluntary)",
-    bestTimeToVisit: "Early morning or evening for a peaceful experience; festival periods for cultural richness",
+    bestTimeToVisit:
+      "Early morning or evening for a peaceful experience; festival periods for cultural richness",
     dressCode:
       "Simple but respectful. Recommended: modest, comfortable clothing and traditional Indian attire. Avoid revealing or inappropriate clothing and loud or flashy outfits; respect local customs and tribal traditions.",
     nearbyAttractions: [
@@ -1111,7 +1150,8 @@ export const templeDetailsData: Record<string, TempleDetails> = {
       {
         url: kanakaDurgaTempleImage,
         alt: "Kanaka Durga Temple on Indrakeeladri Hill",
-        caption: "Sri Durga Malleswara Swamyvarla Devasthanam on the banks of Krishna River",
+        caption:
+          "Sri Durga Malleswara Swamyvarla Devasthanam on the banks of Krishna River",
       },
       {
         url: kanakaDurgaTempleImage2,
@@ -1128,13 +1168,15 @@ export const templeDetailsData: Record<string, TempleDetails> = {
       landmark: "On the banks of Krishna River, near Prakasam Barrage",
     },
     coordinates: {
-      latitude: 16.5190,
+      latitude: 16.519,
       longitude: 80.6215,
     },
     timings: "6:00 AM - 9:00 PM",
     entryFee: "Free (Special darshan tickets available)",
-    bestTimeToVisit: "September to February (Dasara/Navaratri in October is most auspicious)",
-    dressCode: "Traditional attire preferred. Men: Dhoti/Pants with shirt. Women: Saree/Salwar Kameez",
+    bestTimeToVisit:
+      "September to February (Dasara/Navaratri in October is most auspicious)",
+    dressCode:
+      "Traditional attire preferred. Men: Dhoti/Pants with shirt. Women: Saree/Salwar Kameez",
     nearbyAttractions: [
       "Prakasam Barrage",
       "Krishna River",
@@ -1181,7 +1223,8 @@ export const templeDetailsData: Record<string, TempleDetails> = {
         address: "Besant Road, Vijayawada",
         distance: "1.5 km",
         rating: 4.3,
-        description: "Popular vegetarian restaurant serving South Indian cuisine",
+        description:
+          "Popular vegetarian restaurant serving South Indian cuisine",
       },
     ],
     spiritualTeachers: [
@@ -1214,7 +1257,8 @@ export const templeDetailsData: Record<string, TempleDetails> = {
       {
         url: mallikarjunaTempleImage,
         alt: "Mallikarjuna Swamy Temple at Srisailam",
-        caption: "The sacred Mallikarjuna Swamy Temple - one of the 12 Jyotirlingas",
+        caption:
+          "The sacred Mallikarjuna Swamy Temple - one of the 12 Jyotirlingas",
       },
       {
         url: mallikarjunaLingam,
@@ -1247,7 +1291,8 @@ export const templeDetailsData: Record<string, TempleDetails> = {
     timings: "4:30 AM - 3:30 PM, 6:00 PM - 10:00 PM",
     entryFee: "Free (Special darshan tickets available)",
     bestTimeToVisit: "October to February (Maha Shivaratri is most auspicious)",
-    dressCode: "Traditional attire preferred. Men: Dhoti/Pants with shirt. Women: Saree/Salwar Kameez",
+    dressCode:
+      "Traditional attire preferred. Men: Dhoti/Pants with shirt. Women: Saree/Salwar Kameez",
     nearbyAttractions: [
       "Patalaganga (852 steps down)",
       "Shikhareshwaram Temple",
@@ -1296,7 +1341,8 @@ export const templeDetailsData: Record<string, TempleDetails> = {
         address: "Temple Complex, Srisailam",
         distance: "0.1 km",
         contact: "083339 01351",
-        description: "Temple administration conducts religious discourses and rituals",
+        description:
+          "Temple administration conducts religious discourses and rituals",
       },
       {
         name: "Bhramaramba Devi Peetham",
@@ -1336,7 +1382,8 @@ export const templeDetailsData: Record<string, TempleDetails> = {
     },
     timings: "5:30 AM - 10:00 PM",
     entryFee: "Free",
-    bestTimeToVisit: "October to March (Avoid Ambubachi period in June unless attending the festival)",
+    bestTimeToVisit:
+      "October to March (Avoid Ambubachi period in June unless attending the festival)",
     dressCode: "Modest traditional attire",
     nearbyAttractions: [
       "Basistha Temple",
@@ -1374,8 +1421,7 @@ export const templeDetailsData: Record<string, TempleDetails> = {
         address: "GS Road, Guwahati",
         distance: "4 km",
         rating: 4.4,
-        description:
-          "Vegetarian restaurant serving North-East Indian cuisine",
+        description: "Vegetarian restaurant serving North-East Indian cuisine",
       },
     ],
     spiritualTeachers: [
@@ -1383,8 +1429,7 @@ export const templeDetailsData: Record<string, TempleDetails> = {
         name: "Kamakhya Tantric School",
         address: "Near Temple Complex, Nilachal",
         distance: "0.5 km",
-        description:
-          "Ancient school teaching Tantric practices and rituals",
+        description: "Ancient school teaching Tantric practices and rituals",
       },
       {
         name: "Sri Shakti Peetham",
@@ -1439,16 +1484,14 @@ export const templeDetailsData: Record<string, TempleDetails> = {
         address: "Bodh Gaya",
         distance: "1 km",
         rating: 4.7,
-        description:
-          "Buddhist meditation center offering courses and retreats",
+        description: "Buddhist meditation center offering courses and retreats",
       },
       {
         name: "Tergar Monastery",
         address: "Bodh Gaya",
         distance: "2 km",
         rating: 4.8,
-        description:
-          "Tibetan Buddhist center with meditation programs",
+        description: "Tibetan Buddhist center with meditation programs",
       },
     ],
     foodCenters: [
@@ -1472,8 +1515,7 @@ export const templeDetailsData: Record<string, TempleDetails> = {
         name: "International Meditation Centre",
         address: "Bodh Gaya",
         distance: "1 km",
-        description:
-          "Vipassana meditation center with regular courses",
+        description: "Vipassana meditation center with regular courses",
       },
       {
         name: "Thai Monastery",
