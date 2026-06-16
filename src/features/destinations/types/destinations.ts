@@ -14,17 +14,5 @@ export interface State {
   districts: District[];
 }
 
-// Re-export data from constants for backward compatibility
-export {
-  indianStates,
-  allStates,
-  unionTerritories,
-  statesAD,
-  statesGK,
-  statesMN,
-  statesOR,
-  statesST,
-  statesUW,
-  territoriesAD,
-  territoriesJP,
-} from "../constants";
+// Re-export aggregated data from constants
+export { indianStates, allStates, unionTerritories } from "../constants";

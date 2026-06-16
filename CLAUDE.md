@@ -24,6 +24,7 @@ There is **no test runner configured** — no `test` script, no test files, no t
 ## Architecture
 
 ### Feature-sliced layout
+
 Code lives under `src/` in three top-level zones:
 
 - `src/app/` — application composition: `providers/AppProviders.tsx` (React Query + Tooltip providers) and `router/` (route config + `BrowserRouter`).
@@ -39,15 +40,19 @@ Code lives under `src/` in three top-level zones:
 Features: `home`, `destinations`, `divine-places`, `temple-details`, `contact`, `privacy`, `terms`, `not-found`.
 
 ### Routing
+
 - All route paths are defined once in `src/constants/browserRoutes.ts` as a typed object, with `getXRoute()` slug-builder helpers (lowercase + spaces→hyphens + `encodeURIComponent`).
 - `src/app/router/navigation.ts` maps those paths to **lazy-loaded** page components in the `appRoutes` array. It also implements `prefetchAllRoutes()` (called on mount via `requestIdleCallback`) and `getNavRoutes()` (filters by `showInNav`).
 - `AppRouter.tsx` renders `appRoutes` through a `RouteWrapper` that wraps every page in `RouteErrorBoundary` + `Suspense`.
 - Note: `destinations` and `divine-places` pages serve multiple nested routes (state → district → temple, and deity/category → temple). `TempleDetailsPage` is shared by both the `/destinations/...` and `/divine-places/...` temple routes.
 
 ### Data flow (no API)
+
 Content is fully static. The key pattern is **slug-based reverse lookup**: pages read URL params with `useParams`, convert slugs back to names (`decodeURIComponent` + hyphens→spaces), and `.find()` the matching record by case-insensitive name in the constants arrays. See `src/features/temple-details/hooks/useTempleDetails.ts` for the canonical example — it resolves both the destinations hierarchy (`indianStates` → districts → places) and the divine-places hierarchy (deities/jyotirlingas/shakti-peethas/etc.), and synthesizes default `TempleDetails` when no curated record exists.
 
-Large data sets are split across multiple files to keep each manageable (e.g. `destinations/constants/statesA-D.ts`, `statesG-K.ts`, … merged in `constants/index.ts` into `indianStates`). When adding destinations or temples, add to the appropriate alphabetical/category chunk and ensure it flows through the barrel exports.
+Destination data is split **one file per state/union territory** under `destinations/constants/` (e.g. `tamil-nadu.ts`, `delhi.ts`), each exporting a single `State` object. `constants/index.ts` imports them all and merges into `allStates`, `unionTerritories`, and `indianStates`. A state with many districts is sub-chunked into a **folder** instead of a single file: `andhra-pradesh/` holds one `District`-exporting file per district (`alluri-sitharama-raju.ts`, `tirupati.ts`, …) plus an `index.ts` that assembles them into the `andhraPradesh` `State`. When adding a temple, edit the relevant district file (or `<state-slug>.ts` for unchunked states) and add it to that district's `places` — it flows through the barrels automatically.
+
+Temple images live under `src/shared/assets/<state-slug>/<district-slug>/<temple-slug>/<n>.<ext>` (e.g. `andhra-pradesh/bapatla/sivalayam-temple/1.jpg`). Curated full details are split the same way under `temple-details/constants/templeData/<state-slug>/<district-slug>/<temple-slug>.ts` — each file imports its own images and exports one `TempleDetails` object. `templeData/index.ts` collects them all into `templeDetailsData` (keyed by each object's `id` = `generateTempleId(templeName, districtName, stateName)`) and re-exports `generateTempleId` + the `default*` recommendation arrays from `templeData/helpers.ts`. Consumers still import from `"../constants/templeData"` (resolves to the folder's `index.ts`).
 
 React Query (`@tanstack/react-query`) is provided app-wide but currently unused for data fetching since there's no server.
 
