@@ -1,75 +1,53 @@
 import type { TempleDetails } from "../../../../types/templeDetails";
+import {
+  defaultYogaCenters,
+  defaultFoodCenters,
+  defaultSpiritualTeachers,
+} from "../../helpers";
 import sriKalahastTempleImage from "@/shared/assets/andhra-pradesh/chittoor/sri-kalahasti-temple/1.jpg";
 
 export const sriKalahastiTemple: TempleDetails = {
-  id: "andhra-pradesh-tirupati-sri-kalahasti-temple",
+  id: "andhra-pradesh-chittoor-sri-kalahasti-temple",
   name: "Sri Kalahasti Temple",
   history:
-    "Established in the 5th century CE by the Pallava kings, Sri Kalahasti Temple is one of the most ancient and revered Shiva temples in India. The temple has a rich history spanning over 1500 years and has been mentioned in ancient Tamil Sangam literature. The Chola, Pallava, and Vijayanagara empires all contributed to its construction and renovation. The temple's name derives from the legend of three devotees - Sri (spider), Kala (serpent), and Hasti (elephant) - who worshipped Lord Shiva here and attained salvation.",
+    "The origins of Srikalahasti Temple date back to ancient times and are deeply rooted in mythology. The name 'Srikalahasti' comes from three devoted beings — Sri (spider), Kala (serpent), and Hasti (elephant) — who worshipped Lord Shiva with deep devotion and were granted liberation, giving the temple its name. The temple was significantly developed during the Pallava dynasty (5th–9th century CE), with later expansions by the Chola dynasty and the Vijayanagara Empire. The grand gopuram and structures were enhanced under Krishnadevaraya of Vijayanagara, making the temple a blend of Dravidian architecture and rich spiritual heritage.",
   significance:
-    "Sri Kalahasti Temple is one of the Pancha Bhoota Sthalas representing the element of air (Vayu). It is famous for Rahu-Ketu puja to nullify the effects of planetary positions - this is the only temple where Rahu-Ketu puja can be performed at any time, making it unique among all Hindu temples. The lamp inside the sanctum never flickers despite wind, proving divine presence and the presence of Vayu (air element). The temple is also known as Dakshina Kailasam (Kailash of the South).",
+    "One of the most revered Shiva temples in South India and one of the Pancha Bhoota Stalas, representing the element of air (Vayu). Known as the 'Kashi of the South', it is especially famous for the Rahu-Ketu pooja, believed to remove planetary afflictions (doshas) and obstacles related to marriage delays, career, and health. Its most unique feature is that the lamp flame inside the sanctum moves continuously without any wind, symbolizing the presence of the air element.",
   about:
-    "Sri Kalahasti Temple is one of the most famous Shiva temples in South India, located in the town of Srikalahasti in Tirupati district, Andhra Pradesh. The presiding deities are Srikalahasteeswara (Lord Shiva) and Gnana Prasunambika Devi (Goddess Parvati). The temple showcases magnificent Dravidian architecture with intricate carvings and sculptures. The temple features a majestic 120-feet tall Rajagopuram (main tower) that is a blend of Dravidian and Vijayanagara architectural styles. The inner sanctum houses the sacred Shiva Lingam representing the element of air, and the unique feature is that the lamp flame flickers on its own due to the air element's presence, even in the absence of wind.",
+    "The Srikalahasti Temple is one of the most revered Shiva temples in South India, located in the town of Srikalahasti near the pilgrimage city of Tirupati in Chittoor district. It is dedicated to Lord Shiva, worshipped here as Sri Kalahasteeswara, represented in the form of a Vayu Lingam (air element). As one of the Pancha Bhoota Stalas, the temple draws devotees seeking relief from karmic doshas, spiritual growth, and inner peace, and is a major pilgrimage center with deep cultural roots.",
   images: [
     {
       url: sriKalahastTempleImage,
-      alt: "Sri Kalahasti Temple gopuram",
-      caption: "The towering gopuram of Sri Kalahasti Temple",
+      alt: "Srikalahasti Temple gopuram near the Swarnamukhi river",
+      caption: "The towering gopuram of Srikalahasti Temple",
     },
   ],
   address: {
-    street: "Temple Street",
+    street: "Sannidhi Street",
     city: "Srikalahasti",
-    district: "Tirupati",
+    district: "Chittoor",
     state: "Andhra Pradesh",
     pincode: "517644",
-    landmark: "Near Srikalahasti Railway Station",
+    landmark: "Near Srikalahasti Railway Station (2 km)",
   },
   coordinates: {
-    latitude: 13.74944,
-    longitude: 79.69833,
+    latitude: 13.7498,
+    longitude: 79.6984,
   },
-  timings: "6:00 AM - 9:00 PM",
-  entryFee: "Free",
-  bestTimeToVisit: "October to March",
-  dressCode: "Traditional attire recommended",
+  timings:
+    "5:30 AM - 9:30 PM; peak hours morning (6:00 AM - 10:00 AM) and evening",
+  entryFee:
+    "General Darshan: Free; Special Darshan: ₹50 - ₹500; Rahu-Ketu Pooja: approx. ₹300 - ₹2500 by category",
+  bestTimeToVisit:
+    "Early morning for a peaceful darshan; Maha Shivaratri and Kartika Deepam; avoid weekends and festivals if you prefer less crowd",
+  dressCode:
+    "Traditional and modest attire — Men: dhoti, kurta, or formal wear; Women: saree, salwar kameez, or traditional attire. Avoid shorts, sleeveless tops, and western party wear; strict rules may apply for special poojas like Rahu-Ketu rituals.",
   nearbyAttractions: [
-    "Bharadwaja Tirtham",
-    "Kannapiran Temple",
-    "Durgamba Temple",
+    "Tirumala Venkateswara Temple",
+    "Gudimallam Parasurameswara Swamy Temple",
+    "Kanipakam Vinayaka Temple",
   ],
-  yogaCenters: [
-    {
-      name: "Vayu Yoga Center",
-      address: "Main Road, Srikalahasti",
-      distance: "1 km",
-      rating: 4.2,
-      description:
-        "Yoga center focusing on pranayama and breath-based practices",
-    },
-  ],
-  foodCenters: [
-    {
-      name: "Temple Prasadam Counter",
-      address: "Inside Temple Complex",
-      distance: "0.1 km",
-      rating: 4.5,
-      description: "Traditional temple prasadam and South Indian meals",
-    },
-    {
-      name: "Annapurna Bhavan",
-      address: "Near Temple Entrance, Srikalahasti",
-      distance: "0.2 km",
-      rating: 4.3,
-      description: "Pure vegetarian restaurant serving authentic cuisine",
-    },
-  ],
-  spiritualTeachers: [
-    {
-      name: "Sri Kalahasti Agama Patasala",
-      address: "Temple Complex, Srikalahasti",
-      distance: "0.3 km",
-      description: "Traditional school teaching temple rituals and Agamas",
-    },
-  ],
+  yogaCenters: defaultYogaCenters,
+  foodCenters: defaultFoodCenters,
+  spiritualTeachers: defaultSpiritualTeachers,
 };

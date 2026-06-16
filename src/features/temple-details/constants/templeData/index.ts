@@ -36,7 +36,13 @@ import { borraCavesShivaTemple } from "./andhra-pradesh/alluri-sitharama-raju/bo
 import { sriAlluriVenkatadriSwamyTemple } from "./andhra-pradesh/alluri-sitharama-raju/sri-alluri-venkatadri-swamy-temple";
 import { localPaderuShrineTemple } from "./andhra-pradesh/alluri-sitharama-raju/local-paderu-shrine-temple";
 import { tirumalaVenkateswaraTemple } from "./andhra-pradesh/tirupati/tirumala-venkateswara-temple";
+import { kanipakamVinayakaTemple } from "./andhra-pradesh/chittoor/kanipakam-vinayaka-temple";
+import { tirumalaVenkateswaraTemple as tirumalaVenkateswaraTempleChittoor } from "./andhra-pradesh/chittoor/tirumala-venkateswara-temple";
 import { sriKalahastiTemple } from "./andhra-pradesh/chittoor/sri-kalahasti-temple";
+import { gudimallamParasurameswaraSwamyTemple } from "./andhra-pradesh/chittoor/gudimallam-parasurameswara-swamy-temple";
+import { boyakondaGangammaTemple as boyakondaGangammaTempleChittoor } from "./andhra-pradesh/chittoor/boyakonda-gangamma-temple";
+import { mogileeswaraSwamyTemple } from "./andhra-pradesh/chittoor/mogileeswara-swamy-temple";
+import { ardhagiriVeeranjaneyaSwamyTemple } from "./andhra-pradesh/chittoor/ardhagiri-veeranjaneya-swamy-temple";
 import { kanakaDurgaTemple } from "./andhra-pradesh/ntr/kanaka-durga-temple";
 import { mallikarjunaSwamyTemple } from "./andhra-pradesh/nandyal/mallikarjuna-swamy-temple";
 import { kamakhyaTemple } from "./assam/kamrup/kamakhya-temple";
@@ -73,7 +79,13 @@ const all: TempleDetails[] = [
   sriAlluriVenkatadriSwamyTemple,
   localPaderuShrineTemple,
   tirumalaVenkateswaraTemple,
+  kanipakamVinayakaTemple,
+  tirumalaVenkateswaraTempleChittoor,
   sriKalahastiTemple,
+  gudimallamParasurameswaraSwamyTemple,
+  boyakondaGangammaTempleChittoor,
+  mogileeswaraSwamyTemple,
+  ardhagiriVeeranjaneyaSwamyTemple,
   kanakaDurgaTemple,
   mallikarjunaSwamyTemple,
   kamakhyaTemple,
